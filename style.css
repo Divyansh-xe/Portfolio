@@ -1,0 +1,385 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Chakra Petch', sans-serif;
+    
+    overflow: visible;
+    
+
+}.collapse{
+    background-color: black;
+    display: inline-block;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 34px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.925);
+    width: 100vw;
+    border-bottom: 1px solid aliceblue;
+}
+.logo{
+    margin-left: 134px;
+    font-size: 1.4rem;
+    font-family: 'Orbitron', sans-serif;
+    cursor: default;
+}
+.nav-items{
+    display: flex;
+    gap: 30px;
+    margin-right: 264px;
+}
+.nav-items a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-items a:hover{
+    color: cyan;
+    text-shadow: 0 0 5px,  0 0 25px ,0 0 50px , 0 0 100px rgb(2, 202, 202);
+    transition: all 0.1s ease-in-out;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 150px;
+    
+}
+.right img{
+    height: 470px;
+}
+.scroll-1{
+    background-color: rgba(0, 0, 0, 0.925);
+    color: aliceblue;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
+    
+    
+
+    
+}
+
+.scroll-2{
+    background-color: rgba(0, 0, 0, 0.925);
+    color: aliceblue;
+    border-top: 1px solid aliceblue;
+    width: 100vw;
+
+}
+.scroll-3{
+    background-color: rgba(0, 0, 0, 0.925);
+    color: aliceblue;
+    border-top: 1px solid aliceblue;
+    width: 100vw;
+
+}
+.scroll-4{
+    background-color: rgba(0, 0, 0, 0.925);
+    color: aliceblue;
+    border-top: 1px solid aliceblue;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    width: 100vw;
+
+}
+.head2{
+    font-size: 3rem;
+    text-decoration: underline ;
+    cursor: default;
+    text-align: center;
+    display: block;
+    
+
+    
+    padding-left: 34px;
+}
+.head3{
+    font-size: 3rem;
+    text-decoration: underline ;
+    cursor: default;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    display: block;
+    
+
+    
+    padding-left: 34px;
+}
+
+.head-1{
+    font-size: 1.4rem;
+    font-weight: 900;   
+    
+}
+.head-1 span{
+    color: cyan;
+    text-shadow: 0 0 2px cyan;
+    cursor: pointer;
+}
+.name{
+    font-size: 3rem;
+    cursor: pointer;
+    font-weight: 900;
+}
+.left-1{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 100px  ;
+    padding-left: 120px;
+    
+}
+.desc{
+    color: aliceblue;
+    display: inline-block;
+    margin-top: 23px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    
+    padding-top: 33px;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px cyan;
+}
+.icons svg{
+   
+    color: cyan;
+    box-shadow: 0 0 5px cyan;
+    border-radius: 50%;
+    
+}
+.btn{
+    background-color: cyan;
+    font-size: 0.9rem;
+    box-shadow: 0 0 7px cyan;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    
+}
+.btn-container{
+    
+    padding-top: 34px;
+    padding-bottom: 150px;
+}
+.circle:hover{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan,0 0 50px cyan,0 0 100px cyan;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    bottom: 3px;
+}
+
+
+.skill-card{
+    padding-top: 40px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.skills1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.skills1 p{
+    text-align: center;
+    line-height: 29px;
+    font-size: 1.2rem;
+}
+
+.skill-name{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+}
+.hehe{
+    display: flex;
+    gap: 20px;
+    padding-left: 13px;
+    padding-top: 30px;
+    padding-bottom: 53px;
+}
+.skills2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.skills2 p{
+    text-align: center;
+    line-height: 29px;
+    font-size: 1.2rem;
+}
+
+.skill-name{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+}
+.hehe{
+    display: flex;
+    gap: 20px;
+    padding-left: 13px;
+    padding-top: 30px;
+    padding-bottom: 53px;
+}
+.skills3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.skills3 p{
+    text-align: center;
+    line-height: 29px;
+    font-size: 1.2rem;
+}
+
+.skill-name{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+}
+.hehe{
+    display: flex;
+    gap: 20px;
+    padding-left: 13px;
+    padding-top: 30px;
+    padding-bottom: 53px;
+}
+.skills1:hover{
+    transform: rotateY(360deg);
+    transition: all 1s ease-in-out;
+
+}
+.skills2:hover{
+    transform: rotateY(360deg);
+    transition: all 1s ease-in-out;
+
+}
+.skills3:hover{
+    transform: rotateY(360deg);
+    transition: all 1s ease-in-out;
+
+}
+p,h2{
+    cursor:default;
+}
+
+.skills1,.skills2,.skills3{
+    display: inline-flex;
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+    border: 10px solid aliceblue;
+    border-radius: 15px;
+    box-shadow: 0 0 7px cyan;
+
+ }
+ .skills1{
+     background-image: url(https://img.wattpad.com/59ceff7c86657ea83f8a46dc20ecb93937003b9d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f5a784a426d44727a5547514971513d3d2d3536393538393130302e313534623361653437383332373839303530383633363732393830322e6a7067?s=fit&w=720&h=720);
+     background-size: cover;
+
+ }
+ .skills2{
+     background-image: url(https://i.pinimg.com/474x/56/8a/71/568a716c0068055d685013d03734d327.jpg);
+     background-size: cover;
+
+ }
+ .skills3{
+     background-image: url(https://i.pinimg.com/736x/f9/37/ec/f937ec06ed1195615c3a7353f0b22aaf.jpg);
+     background-size: 200%;
+     
+
+ }
+ .projects{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.box{
+    display: inline-flex;
+    height: 300px;
+    width: 400px;
+    border: 10px solid aliceblue;
+    box-shadow: 0 0 5px cyan;
+    border-radius: 10px;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box a{
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 0 0 3000px black;
+}
+.box a:hover{
+    text-shadow: 0 0 5px,0 0 25px,0 0 50px ,0 0 100px black;
+    transform: scale(1.2);
+    
+    transition: all 0.2s ;
+}
+.box:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#gymsite{
+    background-image: url(https://funmauj.b-cdn.net/test/427268.jpg);
+    background-size: cover;
+}
+#matrimony{
+    background-image: url(https://i.pinimg.com/736x/d9/98/1f/d9981f2532fdc8374e4fed0c6f5c3256.jpg);
+    background-size: cover;
+}
+#dashboard{
+    background-image: url(https://i.pinimg.com/736x/83/07/96/8307965a551a53ccf6c1a25e9e79adce.jpg);
+    background-size: cover;
+}
+.con-form{
+    padding-top: 400px;
+}
+.form-btn{
+    height: 40px;
+    width: 900px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0 0 10px cyan;
+    background-color: cyan;
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+.form-btn:hover{
+    background-color: rgba(0, 0, 0, 0.836);
+    color: aliceblue;
+    transition: 0.2s;
+}
+.formm{
+   display: flex;
+   justify-content: center;
+}
+.bbttnn{
+    display: flex;
+    justify-content: center;
+}
+.right img{
+    filter: drop-shadow(0 0 20px cyan);
+}
